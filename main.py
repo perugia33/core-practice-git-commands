@@ -1,9 +1,9 @@
 import pytest
 
 
-def always_returns_true():
+def returns_true():
     return True
 
 
-def test_always_returns_true():
-    assert always_returns_true()
+def test_returns_true():
+    assert returns_true()
